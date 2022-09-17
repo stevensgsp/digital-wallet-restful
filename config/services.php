@@ -31,4 +31,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'soap-wallet' => [
+        'endpoint' => env('SOAP_WALLET_ENDPOINT', 'hppt://example.com'),
+    ],
+
 ];
